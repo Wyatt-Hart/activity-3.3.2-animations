@@ -29,15 +29,15 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
+  to {transform: rotate(-45deg) translate(-40%, 200%);}
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {opacity: 1;}
+  to {opacity: 0;}
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to {transform: rotate(45deg) translate(-40%, -200%);}
 }
